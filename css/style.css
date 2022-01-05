@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --fonte-1: "Bebas Neue";
+}
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-1);
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-1)
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+#currentNumber{
+    padding: 1%;
+}
+button{
+    border-radius: 50%;
+}
